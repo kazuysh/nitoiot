@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: nitoiotweb01
+  host: nitoiotweb01
+  disk_quota: 1024M
+  services:
+  - nitoiotweb01-cloudantNoSQLDB
